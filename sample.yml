@@ -1,0 +1,9 @@
+---
+- name:
+  hosts: all
+  tasks:
+   - name: create user
+      name: user21
+      uid: 342
+      state: present
+   
